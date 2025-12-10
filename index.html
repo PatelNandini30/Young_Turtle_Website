@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Young Turtle | Depth. Discipline. Direction.</title>
+    <meta name="description" content="Engineering quantified strategies with patient insight to build lasting capital." />
+    
+    <!-- Google Fonts: Inter and Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#071A2F',      // Deep Ocean Navy
+              secondary: '#00A89D',    // Scientific Teal
+              accent: '#D4AF37',       // Warm Gold
+              neutralDark: '#0B2233',  // Darker bg
+              neutralMuted: '#94A3B8', // Muted text
+              neutralLight: '#F8FAFC', // Text on dark
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'hero-gradient': 'linear-gradient(to bottom, rgba(7, 26, 47, 0.3), rgba(7, 26, 47, 0.95))',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Global Smooth Scroll */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        background-color: #071A2F;
+        color: #F8FAFC;
+        overflow-x: hidden;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #071A2F;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #00A89D;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #D4AF37;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.10.1",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.1",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.25"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
