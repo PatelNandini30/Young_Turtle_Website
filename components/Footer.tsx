@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <Turtle className="w-6 h-6 text-secondary" />
-              <span className="text-lg font-bold text-white">YOUNG TURTLE</span>
+              <span className="text-lg font-bold text-white">YOUNGTURTLE</span>
             </div>
             <p className="text-neutralMuted text-sm leading-relaxed mb-6">
               Engineering persistent edges in global markets through rigorous mathematics and technology.
